@@ -1,0 +1,16 @@
+.article-detail {
+    & > .header {
+      margin-bottom: 20px;
+    }
+  
+    & > .header > .title {
+      margin-bottom: 10px;
+      font-size: 28px;
+      font-weight: bold;
+    }
+  
+    & > .header > .date {
+      font-size: 12px;
+      color: grey;
+    }
+  }

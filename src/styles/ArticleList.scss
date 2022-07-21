@@ -1,0 +1,25 @@
+.article-list {
+    margin-top: 10px;
+  
+    & .article {
+        padding: 20px 10px;
+        margin: 10px 0;
+        cursor: pointer;
+        background-color: whitesmoke;
+        border-radius: 5px;
+    }
+
+    & > * {
+        color: #000;
+        text-decoration: none;
+    }
+
+    & .article > .title {
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
+  
+    & .article > .body {
+      font-size: 18px;
+    }
+  }
